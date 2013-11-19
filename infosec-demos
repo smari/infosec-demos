@@ -6,7 +6,7 @@ Priority: optional
 Standards-Version: 3.6.2
 
 Package: infosec-demos
-Version: 2013062000
+Version: 2013111800
 Maintainer: Smári McCarthy <smari@immi.is>
 #Pre-Depends: <comma-separated list of packages>
 Depends: python, python-wxgtk2.8, gksu, aircrack-ng, tshark, wireshark
@@ -21,6 +21,8 @@ Architecture: all
 #Extra-Files: tutorials/*.pdf
 Files: isecdem /usr/bin
  infosecdemos/isecdem.py /usr/share
+ infosecdemos/util.py /usr/share
+ infosecdemos/tshark.py /usr/share
  infosecdemos/panels/__init__.py /usr/share
  infosecdemos/panels/keylogger.py /usr/share
  infosecdemos/panels/packetsniffer.py /usr/share
@@ -29,6 +31,7 @@ Files: isecdem /usr/bin
  infosecdemos/panels/mdnsmon0capture.py /usr/share
  infosecdemos/panels/wlanprobes.py /usr/share
  infosecdemos/panels/httpcapture.py /usr/share
+ infosecdemos/panels/tsharkpanel.py /usr/share
  man/man1/isecdem.1 /usr/share
 #  <more pairs, if there's more than one file to include. Notice the starting space>
 Description: Information security demos - contains tutorials and software.
